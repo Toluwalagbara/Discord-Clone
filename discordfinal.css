@@ -1,0 +1,735 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    width: 100%;
+    overflow-x: hidden;
+}
+.entire{
+    width: 100%;
+}
+.major-con{
+    background-image: url(./Src/cloud.svg);
+    background-color: rgb(64,78,237);
+    width: 100%;
+    background-size: auto;
+}
+nav{
+    display: flex;
+    justify-content: space-around;
+    height: 10vh;
+    align-items: center;}
+.fa-bars{
+    display: none;
+}
+.main-con{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    overflow-x: hidden;
+    width: 100%;
+}
+
+
+.lpic, .rpic{
+    padding-top: 200px;}
+
+h1{
+    font-size: 60px;
+    font-weight: 800;
+    line-height: 52px;
+    text-align: center;
+    text-transform: uppercase;
+    color: white;
+    font-family: Arial;
+    padding: 1rem 0 1rem 0;
+    font-stretch: ultra-expanded;
+}
+p{
+    font-size: 25px;
+    /* font-weight: 800; */
+    line-height: 32px;
+    text-align: center;
+    color: white;
+    font-family: Helvetica;
+    padding: 1rem 0 1rem 0;
+}
+
+    .button{
+        width: 780px;
+        height: 80px;
+        display: flex;
+        /* margin-left: 1rem; */
+    }
+    .windows{
+        padding: 0 32px 0 32px;
+        border: none;
+        border-radius: 50px;
+        font-size: 20px;
+        font-weight: 500;
+        line-height: 24px;
+        background-color: black;
+        color: white;
+        margin: 1rem 24px 1rem 24px;
+    }
+    .browser{
+        padding: 0 32px 0 32px;
+        border: none;
+        border-radius: 50px;
+        font-size: 20px;
+        font-weight: 500;
+        line-height: 24px;
+        margin: 1rem 0 1rem 0;
+        background-color: white;
+    } 
+
+    .study-group{
+        display: flex;
+        justify-content: space-evenly;
+        align-items: center;
+        height: 680px;  
+        padding: 120px 40px 120px 40px;
+    }
+
+    a{
+        text-decoration: none;
+        font-family: Helvetica;
+        font-size: 16px;
+        font-weight: 600px;
+        line-height: 22.5px;
+        color: white;
+        padding: 0 1rem 0 1rem;
+    }
+    a:hover{
+        text-decoration: underline;
+    }
+    .login{
+        padding: 0.5rem 1rem 0.5rem 1rem;
+        border: none;
+        border-radius: 30px;
+    }
+    .discord{
+        color: white;
+    }
+    i{
+        padding-right: 1.5rem;
+        font-size: 20px;
+        line-height: 18px;
+    }
+    
+    .create{
+        color: black;
+        text-transform: none;
+        font-size: 48px;
+        font-weight: 800;
+        text-align: left;
+        font-family: Arial, Helvetica, sans-serif; 
+    }
+    .createdis{
+        width: 30%;
+    }
+    h5{
+        font-size: 20px;
+        font-family: Arial, Helvetica, sans-serif;
+        text-decoration: none;
+        font-weight: lighter;
+        line-height: 32px;
+    }
+    .tech{
+        width: 980px;
+        margin: 0 auto;
+        text-align: center;
+    }
+    .techparent{
+        width: 100%;
+        padding: 120px 40px 120px 40px;
+    }
+    .tech h2{
+        font-size: 45px;
+        font-weight: 800;
+        font-family: Arial, Helvetica, sans-serif;
+        padding-bottom: 1rem;
+        
+    }
+    .ready{
+        height: 280px;
+        width: 100%;
+        text-align: center;
+        background-color: #f6f6f6;
+        
+        
+    }
+  [src*="justchilling"]{
+    height: 715px; 
+    width: 100%; 
+    margin: 0 auto;
+  }
+    .star{
+        width: 50%;
+        background-image: url(./Src/star.svg);
+        background-repeat: no-repeat;
+        margin: 0 auto;
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+        align-items: center;
+        background-position: center;
+       
+    }
+    .content h2{
+        font-size: 32px;
+        font-weight: 600;
+        line-height: 38px;
+        padding-top: 2rem;
+        padding-bottom: 2rem;
+        font-family: Arial, Helvetica, sans-serif;
+        font-stretch: extra-expanded;
+    }
+    .windows2{
+        background-color: #5865f2;
+        padding: 0 32px 0 32px;
+        border: none;
+        border-radius: 50px;
+        font-size: 20px;
+        font-weight: 500;
+        line-height: 24px;
+        color: white;
+        margin: 16px 32px 16px 32px;
+        height: 56px;
+    }
+    .windows2:hover{
+        background-color: #707cff;
+    }
+   
+    .footer{
+        display: flex;
+        justify-content: space-between;
+    }
+    .pcrp{
+        display: flex;
+        justify-content: space-evenly;
+        gap: 100px;
+        padding-bottom: 50px;
+    }
+    
+    .product{
+        display: flex;
+        flex-direction: column;
+        color: white;
+        gap: 20px;
+    }
+    .iap{
+        color:rgb(51, 163, 255);
+        font-weight: 800;
+        font-size: 42px;
+        line-height: 40px;
+        text-align: start;
+        font-family: Arial, Helvetica, sans-serif;
+    }
+    .imagine{
+        width: max-content;
+        display: flex;
+        flex-direction: column;
+        gap: 20px;
+        width: 280px;
+        /* height: 240px; */
+    }
+    .socials{
+        display: flex;
+        padding-top: 20px;
+        font-size: 60px;
+        padding-right: 50px;
+    }
+    .signupfoot{
+        display: flex;
+        justify-content: space-between;
+        padding-top: 50px;
+    }
+    .bigfoot{
+        background-color: black;
+        padding: 100px;
+        width: 100%;
+    }
+    .hr{
+        background-color: rgb(0, 79, 143);
+        color: rgb(0, 79, 143);
+    }
+    .discord{
+        font-family: Arial, Helvetica, sans-serif;
+        font-size: 20px;
+        line-height: 18px;
+        font-weight: bold;
+        font-stretch: extra-expanded;
+    }
+    form{
+        color: white;
+        font-family: Arial, Helvetica, sans-serif;
+        font-size: 16px;
+        line-height: 18px;
+        /* font-weight: bold; */
+    }
+
+
+       
+
+    /* MAX-WIDTH 850 */
+@media screen and (max-width: 850px){
+.options{display: none;}
+.fa-bars{
+    display: block;
+    /* width: 100%;
+    margin: 0 auto; */
+    color: white;
+}
+.major-con{
+    width: 100%;
+    margin: 0 auto;
+}
+
+.loginbars{
+    display: flex;
+}
+nav{
+    justify-content: space-evenly; 
+    padding: 0 40px 0 40px;
+}
+.main-con{
+    padding: 80px 40px 0 40px;
+    width: 100%;
+    justify-content: flex-start;
+    overflow-x: hidden;
+}
+.button{
+    flex-direction: column;
+    padding-bottom: 200px;
+}
+.browser{
+    padding: 16px 32px 16px 32px;
+    border: none;
+    border-radius: 50px;
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 24px;
+    width: max-content;
+    /* margin: 1rem 0 1rem 0; */
+    background-color: white;
+} 
+.windows{
+    padding: 16px 32px 16px 32px;
+    border: none;
+    border-radius: 50px;
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 24px;
+    background-color: black;
+    color: white;
+    width: max-content;
+    /* margin: 1rem 24px 1rem 24px; */
+}
+
+.lpic{
+    display: none;
+}
+.copy{
+    width: 50%;
+}
+.rpic{
+    width: 20%;
+
+}
+
+h1{
+    font-size: 60px;
+    font-weight: 800;
+    line-height: 52px;
+    text-align: left;
+    text-transform: uppercase;
+    color: white;
+    font-family: Arial;
+    padding: 1rem 0 1rem 0;
+    font-stretch: ultra-expanded;
+}
+h5{
+    font-size: 16px;
+}
+.create{
+    font-size: 45px;
+}
+p{
+    font-size: 16px;
+    /* font-weight: 800; */
+    line-height: 32px;
+    text-align: left;
+    color: white;
+    font-family: Helvetica;
+    padding: 1rem 0 1rem 0;
+}
+
+.study-group{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    padding: 20px 40px 20px 40px;
+    width: 100%;
+}
+/* .createdis{
+    width: 50%;
+} */
+
+[src*="studygroup"]{
+    width: 350px;
+}
+[src*="voicers"]{
+    width: 350px;
+}
+[src*="coach"]{
+    width: 350px;
+}
+.techparent{
+    width: 100%;
+    margin: 0 auto;
+    padding: 80px 40px 80px 40px;
+}
+.tech{
+    width: 90%;
+    padding-bottom: 0;
+}
+.tech h2{
+    font-size: 35px;
+    font-weight: 800;
+    font-family: Arial, Helvetica, sans-serif;
+    padding-bottom: 1rem;
+}
+[src*="justchilling"]{
+    height: 445px; 
+    width: 100%; 
+    margin: 0 auto;
+  }
+  .content{
+    width: 100%;
+  }
+  .ready{
+    width: 100%;
+  }
+  .star{
+    width: 100%;
+  }
+  .footer{
+    display: flex;
+    justify-content: space-between;
+    gap: 150px;
+    width: 100%;
+}
+.pcrp{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    
+    gap: 5px;
+    padding-bottom: 50px;
+    width: 70%;
+    margin: 0 auto;
+}
+.product{
+    display: flex;
+    flex-direction: column;
+    color: white;
+    gap: 20px;
+}
+.iap{
+    color:rgb(0, 79, 143);
+    font-weight: 800;
+    font-size: 42px;
+    line-height: 40px;
+    text-align: start;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.imagine{
+    width: max-content;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    width: 30%;
+    /* height: 240px; */
+}
+.socials{
+    display: flex;
+    padding-top: 20px;
+    font-size: 60px;
+    padding-right: 50px;
+}
+.signupfoot{
+    display: flex;
+    justify-content: space-between;
+    padding-top: 50px;
+}
+.bigfoot{
+    background-color: black;
+    padding: 80px 40px 80px 40px;
+    width: 100%;
+}
+.pcrptag{
+    padding-top: 50px;
+}
+.hr{
+    background-color: rgb(0, 79, 143);
+    color: rgb(0, 79, 143);
+}
+.discord{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+    line-height: 18px;
+    font-weight: bold;
+    font-stretch: extra-expanded;
+}
+form{
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 16px;
+    line-height: 18px;
+    /* font-weight: bold; */
+}
+}
+ /* Max-width 450px */
+ @media screen and (max-width: 450px){
+    .options{display: none;}
+    .fa-bars{
+        display: block;
+        /* width: 100%;
+        margin: 0 auto; */
+        color: white;
+    }
+    .loginbars{
+        display: flex;
+    }
+    
+    nav{
+        justify-content: space-between; 
+        padding: 0 40px 0 40px;
+    }
+    body{
+        overflow-x: hidden;
+            width: 100%;
+    }
+    .con{
+        width: 100%;
+        display: flex;
+        flex-direction: column-reverse;
+        justify-content: center;
+        padding: 80px 40px 0 40px;
+        
+    }
+    .major-con{
+        width: 100%;
+        overflow-x: hidden;
+    }
+    .button{
+        flex-direction: column;
+        /* padding-bottom: 200px; */
+    }
+    .browser{
+        padding: 16px 32px 0 32px;
+        border: none;
+        border-radius: 50px;
+        font-size: 20px;
+        font-weight: 500;
+        line-height: 24px;
+        width: max-content;
+        /* margin: 1rem 0 1rem 0; */
+        background-color: white;
+    } 
+    .windows{
+        padding: 16px 32px 16px 32px;
+        border: none;
+        border-radius: 50px;
+        font-size: 20px;
+        font-weight: 500;
+        line-height: 24px;
+        background-color: black;
+        color: white;
+        width: max-content;
+        /* margin: 1rem 24px 1rem 24px; */
+    }
+    
+    .copy{
+        width: 100%;
+    }
+    .rpic{
+        display: none;
+    }
+    .lpic{
+        display: block;
+        width: 90%;
+        padding-top: 20px;
+        display: flex;
+        justify-content: center;
+    }
+    [src*="pic1"]{
+        width: 100%;
+    }
+    
+    h1{
+        font-size: 20px;
+        font-weight: 800;
+        line-height: 52px;
+        text-align: left;
+        text-transform: uppercase;
+        color: white;
+        font-family: Arial;
+        padding: 1rem 0 1rem 0;
+        font-stretch: ultra-expanded;
+        /* width: 100%; */
+    }
+    h5{
+        font-size: 16px;
+    }
+    .create{
+        font-size: 45px;
+    }
+    p{
+        font-size: 12px;
+        /* font-weight: 800; */
+        line-height: 32px;
+        text-align: left;
+        color: white;
+        font-family: Helvetica;
+        padding: 1rem 0 1rem 0;
+    }
+   
+    .study-group{
+        display: flex;
+        flex-direction: column;
+        /* justify-content: space-evenly; */
+        align-items: center;
+        /* padding: 20px 40px 20px 40px; */
+        width: 100%;
+    }
+    .studyimg{
+        width: 100%;
+    }
+    .createdis h1{
+        font-size: 30px;
+    }
+    .createdis h5{
+        font-size: 12px;
+    }
+    .createdis{
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+    }
+   
+    
+    [src*="justchilling"]{
+        height: 445px; 
+        width: 100%; 
+        margin: 0 auto;
+      }
+    .techparent{
+        width: 100%;
+        margin: 0 auto;
+        padding: 80px 40px 80px 40px;
+    }
+    .tech{
+        width: 90%;
+        padding-bottom: 0;
+    }
+    .tech h2{
+        font-size: 20px;
+        font-weight: 800;
+        font-family: Arial, Helvetica, sans-serif;
+        padding-bottom: 1rem;
+        text-align: left;
+    }
+    .tech h5{
+        text-align: left;
+    }
+    
+    
+      .content{
+        width: 100%;
+      }
+      .ready{
+        width: 100%;
+      }
+      .star{
+        width: 100%;
+      }
+      .footer{
+        display: flex;
+        flex-direction: column;
+    
+        /* justify-content: space-between; */
+        width: 100%;
+    }
+    .pcrp{
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        
+        gap: 5px;
+        padding-bottom: 50px;
+        width: 70%;
+        margin: 0 auto;
+    }
+    .product{
+        display: flex;
+        flex-direction: column;
+        color: white;
+        gap: 20px;
+    }
+    .iap{
+        color:rgb(0, 79, 143);
+        font-weight: 800;
+        font-size: 42px;
+        line-height: 40px;
+        text-align: start;
+        font-family: Arial, Helvetica, sans-serif;
+    }
+    .imagine{
+        width: max-content;
+        display: flex;
+        flex-direction: column;
+        gap: 20px;
+        width: 30%;
+        /* height: 240px; */
+    }
+    .socials{
+        display: flex;
+        padding-top: 20px;
+        font-size: 60px;
+        padding-right: 50px;
+    }
+    .signupfoot{
+        display: flex;
+        justify-content: space-between;
+        padding-top: 50px;
+    }
+    .bigfoot{
+        background-color: black;
+        padding: 80px 40px 80px 40px;
+        width: 100%;
+    }
+    .pcrptag{
+        padding-top: 50px;
+    }
+    .hr{
+        background-color: rgb(0, 79, 143);
+        color: rgb(0, 79, 143);
+    }
+    .discord{
+        font-family: Arial, Helvetica, sans-serif;
+        font-size: 20px;
+        line-height: 18px;
+        font-weight: bold;
+        font-stretch: extra-expanded;
+    }
+    form{
+        color: white;
+        font-family: Arial, Helvetica, sans-serif;
+        font-size: 16px;
+        line-height: 18px;
+        /* font-weight: bold; */
+    }
+    }
